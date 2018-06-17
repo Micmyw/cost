@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cost/cost.iml" filepath="$PROJECT_DIR$/cost/cost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_sql/demo_sql.iml" filepath="$PROJECT_DIR$/demo_sql/demo_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2_Text/struts2_Text.iml" filepath="$PROJECT_DIR$/struts2_Text/struts2_Text.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomtest/tomtest.iml" filepath="$PROJECT_DIR$/tomtest/tomtest.iml" />
+    </modules>
+  </component>
+</project>

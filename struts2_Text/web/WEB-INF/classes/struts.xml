@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <!--开启多方法模式用
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
+    &lt;!&ndash;编码集配置&ndash;&gt;
+    <constant name="struts.i18n.encoding" value="UTF-8"></constant>
+    &lt;!&ndash;开发者模式，开发时为true，上线发布时要改成false，,启动服务器自动加载修改后的配置文件&ndash;&gt;
+    <constant name="struts.devMode" value="true"></constant>
+    &lt;!&ndash;配置访问地址的后缀,do,action,后者什么都不写&ndash;&gt;
+    <constant name="struts.action.extension" value="do,action,,"></constant>
+
+    &lt;!&ndash;namespace表示域名空间，在项目名后加上该值在加上余下的值&ndash;&gt;
+    <package name="default" extends="struts-default" strict-method-invocation="false" namespace="/system">
+        &lt;!&ndash;
+        多方法调用①action的name+“！”+方法名称
+        name 表示实例名称（访问时地址名称）
+        method 默认的访问方法execute&ndash;&gt;
+        &lt;!&ndash;<action name="helloWorld" class="com.cflab.web.HelloWorldAction" method="execute">&ndash;&gt;
+        &lt;!&ndash;&lt;!&ndash;方法结果result返回界面，name默认为success&ndash;&gt;&ndash;&gt;
+        &lt;!&ndash;<result name="success">/hello.jsp</result>&ndash;&gt;
+        &lt;!&ndash;</action>&ndash;&gt;
+
+
+        &lt;!&ndash;通配符方式配置action多方法&ndash;&gt;
+        &lt;!&ndash;{1}表示第一个*所代表的字符串&ndash;&gt;
+        &lt;!&ndash;{2}表示第二个*所代表的字符串&ndash;&gt;
+        &lt;!&ndash;{3}表示第三个*所代表的字符串&ndash;&gt;
+        &lt;!&ndash;如：请求地址为：HelloWorld_add_hello&ndash;&gt;
+        <action name="*_*_*" class="com.cflab.web.{1}Action" method="{2}">
+            <result name="success">{3}.jsp</result>
+        </action>
+    </package>-->
+</struts>
